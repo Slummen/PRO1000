@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box;}
+</style>
+</head>
+<body>
+<link href="meny.css" rel="stylesheet">
+
+<div class="header">
+  <img class="image" src="Logo - Teleoutlet.png" alt="Logo">
+  <a href="#" class="logo">Teleoutlet</a>
+  <div class="header-right">
+    <a class="active" href="#">Hjem</a>
+    <a href="#">Produkter</a>
+    <a href="#">Om oss</a>
+    <a href="#">Artikler</a>
+    <a href="#">Personvern</a>
+  </div>
+</div>
+
+</body>
+</html>
