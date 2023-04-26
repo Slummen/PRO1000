@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="index-style.css" rel="stylesheet">
+    <link rel="stylesheet" href="Footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="tjenester.css">
+    <link rel="icon" href="Logo.jpg" type="image/jpg">
+    <title>Reperasjon</title>
+    <style>
+    p{
+        font-size: 20px;
+        text-align: left, center;
+    } 
+    h2{
+        text-align: center;
+        padding-bottom: 40px;
+        padding-top: 40px;
+        font-size: 40px;
+    }
+    .tilbake1{
+        color: #222f3e;
+        font-size: 20px;
+        text-align: center;
+        margin-left: 920px;
+        }
+
+
+    
+        .body{
+    background-color: #fafafa;
+    font-family: sans-serif;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.dropdwn{
+    margin: 0;
+    margin-right: 0;
+    position: relative;
+    background:#2c3e50;
+}
+.meny{
+    margin-right: 110px;
+    position:relative;
+    border-radius: 1px;
+}
+nav {
+    height: 70px;
+    background: #2c3e50;
+    box-shadow: 0 10x 15px rgba(0,0,0,0.1);
+    padding: 2px;
+    position: relative;
+}
+.produkter{
+    background-color: #2c3e50;
+    margin-right: 100px;    
+}
+.omoss{
+    background-color: #2c3e50;
+}
+.artikler{
+    background-color: #2c3e50;
+}
+.personvern{
+    background-color: #2c3e50;
+}
+
+.logo {
+    padding: 1px 0 0 100px;
+    width: 140px;
+    margin-right: 60px;
+    margin-top: 6px;
+    height: auto;
+    float: left;
+    align-items: center;
+}
+.shop-cart1{
+    float: right;
+    width: 34px;
+    color: white;
+    height: auto;
+    margin-right: 150px;
+    background: fixed;
+}
+.shop-cart{
+    float: left;
+    width: 34px;
+    color: white;
+    height: auto;
+    margin-right: 60px;
+    background: fixed;
+}
+
+
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    float: right;
+    margin-right: 30px;
+}
+
+nav ul li {
+    background: #2c3e50;
+    position: relative;
+    list-style: none;
+    display: inline-block;
+}
+.search {
+    padding: 6px;
+    margin-left: 21%;
+    margin-top:15px;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 15px;
+    width: 22%;
+    position: absolute;
+}
+
+
+  
+nav ul li a{
+    display: block;
+    padding: 0 15px;
+    color: #dedede;
+    text-decoration: none;
+    line-height: 60px;
+    font-size: 20px;
+}
+
+nav ul li a:hover{
+    background: #243342;
+}
+
+nav ul ul {
+    position: absolute;
+    top: 60px;
+    display: none;
+
+}
+
+nav ul li:hover > ul{
+    display: block;
+}
+nav ul ul li{
+    width: 150px;
+    float: none;
+    display: list-item;
+    position: relative;
+}
+nav ul ul ul li{
+    position:relative;
+    top: -60px;
+    left: 150px
+}
+
+@media all and (max-width: 390px){
+    .logo{
+        padding: 10px 0 0 10px;
+        width: 80px;
+        margin-top: 6px;
+        height: auto;
+        float: left;
+        align-items: center;
+    }
+    .search{
+
+        margin-left: 100px;
+        margin-top:85px;
+        border-radius: 5px;
+        font-size: 10px;
+        width: 50%;
+        position: absolute;
+    }
+    .meny{
+        position:absolute;
+        border-radius: 1px;
+        margin-top: 70px;
+    }
+    .shop-cart1{
+        position: relative;
+        margin-right: 70px;
+        width: 25px;
+        color: white;
+        height: auto;
+        background: fixed;
+    }
+    .knustskjerm{
+        width: 100%;
+    };
+}
+
+    </style>
+</head>
+<body>
+    <div class="navigasjon">
+        <div id="navbar">
+            <div class="dropdwn">
+                <nav>
+                    <a href="index.html">
+                        <img class="logo" src="logo1.jpg" alt="Teleoutlet logo">
+                      </a>
+                    <a href="Handlekurv.html"><button onclick="kasse.html" class="shop-cart1" >
+                    <img class="shop-cart" src="cartier.png" alt="handlekurv logo">
+                    </button>
+                    </a>
+                    <ul>
+                        <li class="meny"><a href="#">Meny</a>
+                            <ul>
+                            <li><a href="produkter.html">Produkter</a></li>
+                            <li><a href="OmOss.html">Om oss</a></li>
+                            <li><a href="Artikler.html">Artikler</a></li>
+                            <li><a href="Personvern.html">Personvern</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+
+            </div>
+        </div>
+</div>
+<h2>Reparasjon</h2>
+<img class="batteri"src="hammar.jpg" alt="Hammar bilde" >
+
+<div style="max-width: 800px; margin: auto;">
+    <p style="text-align: left;">Velkommen til vår reparasjonstjeneste for iPhone, Samsung og Huawei! Vi tilbyr profesjonell reparasjon av disse merkene, og vårt erfarne team er klare til å hjelpe deg med alle slags problemer du måtte ha med din telefon.
+
+        For å sikre den beste kvaliteten på reparasjonen, ber vi om at du kommer innom vårt verksted i Gullgata 16, slik at vi kan utføre en inspeksjon av telefonen din før vi begynner med reparasjonen. Dette vil gi oss muligheten til å identifisere problemet og gi deg en nøyaktig pris for reparasjonen.
+        <br>
+        <br>
+        Vi har et bredt utvalg av reservedeler og bruker kun de høyeste kvalitetsdelene for å sikre at telefonen din blir reparert på best mulig måte. Vi forstår hvor viktig telefonen din er for deg, og vi gjør alt vi kan for å gi deg en rask og pålitelig reparasjonstjeneste.
+        
+        Kom gjerne innom vår butikk eller ta kontakt med oss på telefon eller e-post for å avtale en inspeksjonstid for din iPhone, Samsung eller Huawei. Vårt team står alltid klare til å hjelpe deg med å få din telefon tilbake til optimal tilstand så raskt som mulig!
+        </p>
+    </div>
+
+<br>
+<br>
+<br>
+
+    <div style="text-align:center; margin-top:50px;">
+    <a href="index.html" style="background-color: #222f3e; color: white; padding: 20px 30px; text-align: center; text-decoration: none; display: inline-block; font-size: 20px; margin: 4px 2px; cursor: pointer;">Tilbake</a>
+    </div>
+
+    <footer>
+        <div class="footer-basic" style="margin-top: 300px;">
+            <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#">
+            <i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="syntax.html">Hjem</a></li>
+                <li class="list-inline-item"><a href="produkter.html">Produkter</a></li>
+                <li class="list-inline-item"><a href="OmOss.html">Om oss</a></li>
+                <li class="list-inline-item"><a href="Artikler.html">Artikler</a></li>
+                <li class="list-inline-item"><a href="Personvern.html">Personvern</a></li>
+            </ul>
+            <p class="copyright">Teleoutlet © 2023</p>
+        </div>
+    </footer>
+
+</body>
+</html>
