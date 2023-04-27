@@ -28,6 +28,7 @@
         font-size: 2.5em;        
         margin-left: 30px;
         margin-right: 30px;
+        margin-top: 100px;
 
     }
 
@@ -35,6 +36,42 @@
        float: left;
        width: 22%; 
     } 
+
+    .footer-basic {
+    width: 100%;
+    padding: 20px;
+    background-color: #222f3e;
+    color: #fff;
+    text-align: center;
+    font-family: sans-serif;
+    }
+
+    .footer-basic ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    }
+
+    .footer-basic li {
+    padding: 0 10px;
+    }
+
+    .footer-basic a {
+    color: #fff;
+    text-decoration: none;
+    }
+
+    .footer-basic a:hover {
+    text-decoration: underline;
+    }
+
+    
+    .footer-basic .rights {
+    text-align: right;
+    }
         
     </style>
 </head>
@@ -52,7 +89,7 @@
                     </button>
                     </a>
                     <ul>
-                        <li class="meny"><a href="#">Om Oss</a>
+                        <li class="meny"><a href="#">Om oss</a>
                             <ul>
                             <li><a href="index.html">Hjem</a></li>
                             <li><a href="produkter.html">Produkter</a></li>
@@ -68,7 +105,7 @@
         </div>
 </div>
     <div style="max-width: 800px; margin: auto;">
-        <h1>Om Oss</h1>
+        <h1>Om oss</h1>
         <p style="text-align: left;">Velkommen til vår telefonsalgs nettside i Hønefoss. Vi er en gruppe på fem studenter fra universitetet i sør-øst Norge som tilbyr telefonsalgstjenester, samt reparasjon og salg av mobiltelefoner.
             I tillegg til våre telefonsalgstjenester, tilbyr vi også reparasjon av mobiltelefoner, inkludert skjermbytte og batteribytte. Vi har et team av erfarne teknikere som vil ta godt vare på din mobiltelefon og sikre at den fungerer som ny igjen.
     
@@ -91,19 +128,38 @@
         <div style="text-align:center; margin-top:50px;">
           <a href="index.html" style="background-color: #222f3e; color: white; padding: 20px 30px; text-align: center; text-decoration: none; display: inline-block; font-size: 20px; cursor: pointer;">Tilbake</a>
         </div>
-    <footer>
-        <div class="footer-basic">
-            <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#">
-            <i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
-            <ul class="list-inline">
-                <li class="list-inline-item"><a href="index.html">Hjem</a></li>
-                <li class="list-inline-item"><a href="produkter.html">Produkter</a></li>
-                <li class="list-inline-item"><a href="OmOss.html">Om oss</a></li>
-                <li class="list-inline-item"><a href="Artikler.html">Artikler</a></li>
-                <li class="list-inline-item"><a href="Personvern.html">Personvern</a></li>
-            </ul>
-            <p class="copyright">Teleoutlet © 2023</p>
-        </div>
-    </footer>
+        <footer>
+            <div class="footer-basic">
+                <div class="social">
+                    <a href="https://www.instagram.com/telianorge/" target="_blank">
+                        <i class="icon ion-social-instagram"></i>
+                    </a>
+                    <a href="https://www.snapchat.com/add/telianorge" target="_blank">
+                        <i class="icon ion-social-snapchat"></i>
+                    </a>
+                    <a href="https://twitter.com/telianorge" target="_blank">
+                        <i class="icon ion-social-twitter"></i>
+                    </a>
+                    <a href="https://www.facebook.com/TeliaNorge/" target="_blank">
+                        <i class="icon ion-social-facebook"></i>
+                    </a>
+                </div>
+                <ul class="list-inline">
+                    <li class="list-inline-item"><a href="index.html">Hjem</a></li>
+                    <li class="list-inline-item"><a href="produkter.html">Produkter</a></li>
+                    <li class="list-inline-item"><a href="OmOss.html">Om oss</a></li>
+                    <li class="list-inline-item"><a href="Artikler.html">Artikler</a></li>
+                    <li class="list-inline-item"><a href="Personvern.html">Personvern</a></li>
+                </ul>
+                <div class="contact-info">
+                    <ul class="list-unstyled">
+                        <li class="phone"><a href="tel:42321253">Tlf. 42 32 12 53</a></li>
+                        <li class="email"><a href="mailto:teleoutlet@usn.no">Send e-post</a></li>
+                        <li class="address"><a href="https://goo.gl/maps/juq1iy94ERgHX1rg9" target="_blank">Gullagata 16, 3510 Hønefoss</a></li>
+                    </ul>
+                </div>
+                <p class="rights">Teleoutlet © 2023</p>
+            </div>
+        </footer>
 </body>
 </html>
