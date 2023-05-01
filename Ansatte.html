@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, user-scalable=0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Om oss - Teleoutlet</title>
+    <title>Teamet vårt - Teleoutlet</title>
     <link href="index-style.css" rel="stylesheet">
     <link rel="stylesheet" href="Footer.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
@@ -44,7 +44,10 @@
 
     }
 
-
+    .lokasjon{
+       float: left;
+       width: 22%; 
+    } 
 
     .footer-basic {
     width: 100%;
@@ -82,6 +85,59 @@
     text-align: right;
     }
 
+.employee-list {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.employee-list h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #444;
+}
+
+.employee-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.employee-list li {
+  margin: 2rem;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.employee-list img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+  border-radius: 50%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.employee-list h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #444;
+}
+
+.employee-list p {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  color: #666;
+}
+        
     </style>
 </head>
 <body>
@@ -98,7 +154,7 @@
                     </button>
                     </a>
                     <ul>
-                        <li class="meny"><a href="#">Om oss</a>
+                        <li class="meny"><a href="#">Ansatte</a>
                             <ul>
                             <li><a href="index.html">Hjem</a></li>
                             <li><a href="produkter.html">Produkter</a></li>
@@ -113,36 +169,46 @@
 
             </div>
         </div>
-        <div style="max-width: 800px; margin: auto;">
-            <h1>Om oss</h1>
-            <p style="text-align: left;">Velkommen til vår telefonsalgs nettside i Hønefoss. Vi er en gruppe på fem studenter fra universitetet i sør-øst Norge som tilbyr telefonsalgstjenester, samt reparasjon og salg av mobiltelefoner.
-                I tillegg til våre telefonsalgstjenester, tilbyr vi også reparasjon av mobiltelefoner, inkludert skjermbytte og batteribytte. Vi har et team av erfarne teknikere som vil ta godt vare på din mobiltelefon og sikre at den fungerer som ny igjen.
-            
-                Vi kjøper også din gamle mobiltelefon dersom du velger å kjøpe en ny telefon hos oss. Vi tror på gjenbruk og gjenvinning, og vi vil sørge for at din gamle telefon blir tatt hånd om på en miljøvennlig måte. Kom innom for å finne frem til en god pris på din gamle telefon. 
-                <br>
-                <br>
-                Hos oss vil du oppleve en profesjonell og personlig tilnærming til telefonsalg og mobilreparasjon. Vi tror på å bygge langvarige relasjoner med våre kunder, og vi vil alltid jobbe hardt for å forstå deres behov og krav.
-            
-                Vi bruker de nyeste teknologiene og metodene for å sikre at vi alltid er oppdatert på de siste trendene innen telefonsalg og mobilreparasjon. Våre konsulenter og teknikere vil alltid være klare til å hjelpe deg med å finne den beste løsningen for deg og din mobiltelefon.
-                <br>
-                <br>
-                Ønsker du å finne kontaktinformasjon på de ansatte? Sjekk ut våre ansatte under Ansatte i menyen, eller ved å klikke <a href="ansatte.html">Her. </a> Ellers er vår generelle kontaktinformasjon under.
-                <br>Vår kontaktinformasjon:
-                <br>
+
+            </div>
         </div>
-                <ul>
-                    <li class="phone"><a href="tel:42321253">Tlf. 42 32 12 53</a></li>
-                    <li class="email"><a href="mailto:teleoutlet@usn.no">Send e-post</a></li>
-                    <li class="address"><a href="https://goo.gl/maps/juq1iy94ERgHX1rg9" target="_blank">Gullagata 16, 3510 Hønefoss</a></li>
-                </ul>
-            </p>
-            
-        
+
+        <div class="employee-list">
+            <h2>Teamet vårt!</h2>
+            <ul>
+              <li>
+                <div class="employee">
+                  <img src="person1.jpg" alt="Employee Picture">
+                  <h3>Lars Olsen</h3>
+                  <p>Posisjon: Daglig Leder</p>
+                  <p>Email:<br> Larsolsen@teleoutlet.no</p>
+                  <p>Telefon: +4712234567</p>
+                </div>
+              </li>
+              <li>
+                <div class="employee">
+                  <img src="person2.jpg" alt="Employee Picture">
+                  <h3>Erik Johansen</h3>
+                  <p>Posisjon: Salgsansvarlig</p>
+                  <p>Email: Erikjohansen@teleoutlet.no</p>
+                  <p>Telefon: +4723456789</p>
+                </div>
+              </li>
+              <li>
+                <div class="employee">
+                  <img src="person3.jpg" alt="Employee Picture">
+                  <h3>Anders Pettersen</h3>
+                  <p>Posisjon: Reparatør</p>
+                  <p>Email: Anderspettersen@teleoutlet.no</p>
+                  <p>Telefon: +47 34567890</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          
 
 
-    <div style="text-align:center;">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d510.64242168088333!2d10.263637676923613!3d60.17375055148113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4641075d29127fbb%3A0xdb4d564be97bfa71!2sGullagata%2016%2C%203513%20H%C3%B8nefoss!5e0!3m2!1sno!2sno!4v1682645840402!5m2!1sno!2sno" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
+
         <div style="text-align:center; margin-top:50px;">
           <a href="index.html" style="background-color: #222f3e; color: white; padding: 20px 30px; text-align: center; text-decoration: none; display: inline-block; font-size: 20px; cursor: pointer;">Tilbake</a>
         </div>
