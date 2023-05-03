@@ -78,18 +78,6 @@ nav ul li {
     list-style: none;
     display: inline-block;
 }
-.search {
-    padding: 6px;
-    margin-left: 20%;
-    margin-top:15px;
-    align-items: center;
-    border-radius: 5px;
-    font-size: 15px;
-    width: 22%;
-    position: absolute;
-}
-
-
   
 nav ul li a{
     display: block;
@@ -135,15 +123,7 @@ nav ul ul ul li{
         float: left;
         align-items: center;
     }
-    .search{
 
-        margin-left: 100px;
-        margin-top:85px;
-        border-radius: 5px;
-        font-size: 10px;
-        width: 50%;
-        position: absolute;
-    }
     .meny{
         position:absolute;
         border-radius: 1px;
