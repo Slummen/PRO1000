@@ -221,6 +221,10 @@ $(document).ready(function(){
 		});
 	});
 	
+
+	
+
+
 	$('.add_to_cart').click(function(){
 		var productCard = $(this).parent();
 		var position = productCard.offset();

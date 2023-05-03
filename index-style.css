@@ -8,16 +8,6 @@ body{
   background: white;
 }
 
-h1{
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: center;
-    margin-top: 0;
-    font-size: 80px;
-    padding-top: 50px;
-    color: black;
-    padding-bottom: 50px;
-    background-color: white;
-}
 h3{
     text-align: center;
     font-size: 30px;
@@ -76,12 +66,6 @@ img{
     display: block;
 }
 
-p{
-    text-align: center;
-    font-size: 25px;
-    color: black;
-    padding-top: 0 8px;
-}
 
 h6{
     font-size: 26px;
@@ -201,9 +185,6 @@ button{
   transform: translate(0px, -5px);
 }
 
-
-
-
 .footer-basic {
   margin-top: 100px;
   padding:40px 0;
@@ -312,18 +293,11 @@ button{
 
 }
 .footer-basic {
-  margin-top: 200px;
+  margin-top: 75px;
   padding:40px 0;
   background: color #f0f0f0;;
   color:#000000;
 }
-  h1{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: center;
-    padding-top: 45px;
-    font-size: 45px;
-  }
-
   .Skjerm{
     width: 80%;
     position: absolute;
@@ -364,23 +338,7 @@ button{
   }
 
 }
-
-@media all and (max-width: 400px) {
-  h1{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: center;
-    margin-top: 10%;
-    font-size: 22px;
-  }
-
-}
 @media all and (max-width:992px) {
-  h1{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: center;
-    margin-top: 10%;
-    font-size: 45px;
-  }
   .NyeProdukter{
     width: auto;
     margin: 15px;
