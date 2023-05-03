@@ -1,23 +1,10 @@
 body{
   width: 100%;
   height: 100%;
-  margin: 0;
-  padding: 0;
   overflow-x: hidden;
   font-family: sans-serif;
   background: white;
 }
-
-h3{
-    text-align: center;
-    font-size: 30px;
-    margin: 0;
-    padding-top: 10px;
-}
-a{
-    text-decoration: none;
-}
-
 .Forside{
     display: flex;
     flex-wrap: wrap;
@@ -185,69 +172,6 @@ button{
   transform: translate(0px, -5px);
 }
 
-.footer-basic {
-  margin-top: 100px;
-  padding:40px 0;
-  background: color #f0f0f0;;
-  color:white;
-}
-
-.footer-basic ul {
-  
-  padding:0;
-  list-style:none;
-  text-align:center;
-  font-size:18px;
-  line-height:1.6;
-  margin-bottom:0;
-}
-
-.footer-basic li {
-  padding:0 10px;
-}
-
-.footer-basic ul a {
-  color:inherit;
-  text-decoration:none;
-  opacity:0.8;
-}
-
-.footer-basic ul a:hover {
-  opacity:1;
-}
-
-.footer-basic .social {
-  text-align:center;
-  padding-bottom:25px;
-}
-
-.footer-basic .social > a {
-  font-size:24px;
-  width:40px;
-  height:40px;
-  line-height:40px;
-  display:inline-block;
-  text-align:center;
-  border-radius:50%;
-  border:1px solid #ccc;
-  margin:0 9px;
-  color:inherit;
-  opacity:0.75;
-}
-
-.footer-basic .social > a:hover {
-  opacity:0.9;
-}
-
-.footer-basic .copyright {
-  margin-top:15px;
-  text-align:center;
-  font-size:13px;
-  color:#aaa;
-  margin-bottom:0;
-}
-
-
 .top {
   display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
@@ -273,9 +197,6 @@ button{
   float: left;
 }
 
-
-
-
 @media all and (max-width:390px) {
 .NyeProdukter{
     width: auto;
@@ -285,19 +206,12 @@ button{
     text-align: center;
     border-radius: 20px;
     cursor: pointer;
-    padding-top: 600px;
     box-shadow: 0 14px 28px rgba(0,0,0,0,0.25),
     0 10px 10px rgba(0,0,0,0,0.22);
     transition: .4s;
     background: rgb(199, 214, 219);
+  }
 
-}
-.footer-basic {
-  margin-top: 75px;
-  padding:40px 0;
-  background: color #f0f0f0;;
-  color:#000000;
-}
   .Skjerm{
     width: 80%;
     position: absolute;
@@ -306,12 +220,12 @@ button{
     overflow: hidden;
     clear: both;
     color:white;
-    
-
   }
+
   .Skjerm:hover{
     background-color:rgb(67, 118, 135);
   }
+  
   .Batteri{
     width: 80%;
     margin-top: 35%;
@@ -321,9 +235,11 @@ button{
     overflow: hidden;
     clear: both;
   }
+  
   .Batteri:hover{
     background-color: rgb(67, 118, 135);
   }
+  
   .Reperasjon{
     width: 80%;
     margin-top: 64%;
@@ -333,18 +249,16 @@ button{
     overflow: hidden;
     clear: both
   }
+  
   .Reperasjon:hover{
     background-color: rgb(67, 118, 135);
   }
-
-}
-@media all and (max-width:992px) {
+  
   .NyeProdukter{
     width: auto;
     margin: 15px;
     box-sizing: border-box;
-    float: left;
-    
+    float: left;  
     border-radius: 20px;
     cursor: pointer;
     padding-top: 45px;
@@ -352,15 +266,6 @@ button{
     0 10px 10px rgba(0,0,0,0,0.22);
     transition: .4s;
     background: rgb(199, 214, 219);
-
-}
-}
-@media all and (max-width:1440px) {
-  h1{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: center;
-    margin-top: 10%;
-    font-size: 45px;
   }
 }
 
