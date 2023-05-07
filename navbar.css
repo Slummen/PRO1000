@@ -114,7 +114,7 @@ nav ul ul ul li{
     left: 150px
 }
 
-@media all and (max-width: 390px){
+@media all and (max-width: 410px){
     .logo{
         padding: 10px 0 0 10px;
         width: 80px;
