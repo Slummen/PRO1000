@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, user-scalable=0">
 	<title>Handlekurv - Teleoutlet</title>
 	<link rel="stylesheet" type="text/css" href="handlekurv.css">
+	<link rel="stylesheet" href="navbar.css">
+	<link rel="stylesheet" href="style_footer.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,900" rel="stylesheet">
-    <link rel="stylesheet" href="handlekurv.css">
 	<link rel="icon" href="Logo.jpg" type="image/jpg">
 	
 	<!-- Google tag (gtag.js) -->
@@ -19,6 +21,37 @@
 
 </head>
 <body>
+	<div class="navigasjon">
+        <div id="navbar">
+          <div class="dropdwn">
+            <nav>
+                <a href="index.html">
+                    <img class="logo" src="logo1.jpg" alt="Teleoutlet logo">
+                  </a>
+                  
+                <a href="Handlekurv.html"><button onclick="kasse.html" class="shop-cart1" >
+                <img class="shop-cart" src="cartier.png" alt="handlekurv logo">
+                </button>
+                </a>
+                <ul>
+                    <li class="meny"><a href="#">Artikler</a>
+                        <ul>
+                        <li><a href="index.html">Hjem</a></li>
+                        <li><a href="produkter.html">Produkter</a></li>
+                        <li><a href="OmOss.html">Om oss</a></li>
+                        <li><a href="Artikler.html">Artikler</a></li>
+                        <li><a href="Personvern.html">Personvern</a></li>
+                        <li><a href="Ansatte.html">Ansatte</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+
+        </div>
+    </div>
+    </div>
+</div>
+
    <div class="CartContainer">
    	   <div class="Header">
    	   	<h3 class="Heading">Handlekurv</h3>
@@ -26,12 +59,12 @@
    	   </div>
    	   <div class="Cart-Items">
    	   	  <div class="image-box">
-   	   	  	<img src="Iphone 14.avif" style={{ height="120px" }} />
+			<img style="height: 120px;" src="Iphone 14.avif">
    	   	  </div>
    	   	  <div class="about">
    	   	  	<h1 class="title">Iphone 14</h1>
    	   	  	<h3 class="subtitle">128GB</h3>
-   	   	  	<img src="Iphone 14.avif" style={{ height="30px" }}/>
+   	   	  	<img style="height: 30px" src="Iphone 14.avif">
    	   	  </div>
    	   	  <div class="counter">
    	   	  	<div class="btn">+</div>
@@ -40,19 +73,17 @@
    	   	  </div>
    	   	  <div class="prices">
    	   	  	<div class="amount">24.998kr</div>
-   	   	  	<div class="save"><u>Lager for senere</u></div>
-   	   	  	<div class="remove"><u>Fjern</u></div>
    	   	  </div>
    	   </div>
 
    	   <div class="Cart-Items pad">
    	   	  <div class="image-box">
-   	   	  	<img src="galaxy23+5G.jpg" style={{ height="120px" }} />
+   	   	  	<img style="height: 120px;" src="galaxy23+5G.jpg"> 
    	   	  </div>
    	   	  <div class="about">
    	   	  	<h1 class="title">Samsung S23</h1>
    	   	  	<h3 class="subtitle">258GB</h3>
-   	   	  	<img src="galaxy23+5G.jpg" style={{ height="30px" }}/>
+   	   	  	<img style="height: 30px" src="galaxy23+5G.jpg">
    	   	  </div>
    	   	  <div class="counter">
    	   	  	<div class="btn">+</div>
@@ -61,20 +92,50 @@
    	   	  </div>
    	   	  <div class="prices">
    	   	  	<div class="amount">14.000kr</div>
-   	   	  	<div class="save"><u>Lager for senere</u></div>
-   	   	  	<div class="remove"><u>Fjern</u></div>
    	   	  </div>
    	   </div>
-   	 <hr> 
    	 <div class="checkout">
    	 <div class="total">
    	 	<div>
    	 		<div class="Subtotal">Totalt</div>
-   	 		<div class="items">3 Produkter</div>
    	 	</div>
    	 	<div class="total-amount">38.998kr</div>
    	 </div>
-   	 <button class="button">Checkout</button></div>
+   	 <button class="button">Betaling</button></div>
    </div>
+
+   <footer>
+	<div class="footer-basic">
+		<div class="social">
+			<a href="https://www.instagram.com/telianorge/" target="_blank">
+				<i class="icon ion-social-instagram"></i>
+			</a>
+			<a href="https://www.snapchat.com/add/telianorge" target="_blank">
+				<i class="icon ion-social-snapchat"></i>
+			</a>
+			<a href="https://twitter.com/telianorge" target="_blank">
+				<i class="icon ion-social-twitter"></i>
+			</a>
+			<a href="https://www.facebook.com/TeliaNorge/" target="_blank">
+				<i class="icon ion-social-facebook"></i>
+			</a>
+		</div>
+		<ul class="list-inline">
+			<li class="list-inline-item"><a href="index.html">Hjem</a></li>
+			<li class="list-inline-item"><a href="produkter.html">Produkter</a></li>
+			<li class="list-inline-item"><a href="OmOss.html">Om oss</a></li>
+			<li class="list-inline-item"><a href="Artikler.html">Artikler</a></li>
+			<li class="list-inline-item"><a href="Personvern.html">Personvern</a></li>
+		</ul>
+		<div class="contact-info">
+			<ul class="list-unstyled">
+				<li class="phone"><a href="tel:42321253">Tlf. 42 32 12 53</a></li>
+				<li class="email"><a href="mailto:teleoutlet@usn.no">Send e-post</a></li>
+				<li class="address"><a href="https://goo.gl/maps/juq1iy94ERgHX1rg9" target="_blank">Gullagata 16, 3510 Hønefoss</a></li>
+			</ul>
+		</div>
+		<p class="rights">Teleoutlet © 2023</p>
+	</div>
+</footer>
 </body>
 </html>
