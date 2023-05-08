@@ -8,10 +8,11 @@ body{
   background: white;
 }
 .small-container{
-  max-width: 100%;
+  max-width: 65%;
   margin: auto;
   padding-left: 25px;
   padding-right: 20px;
+  
 }
 .row{
   display: flex;

@@ -7,6 +7,8 @@
 
 .dropdwn{
     margin: 0;
+    visibility: visible;
+    z-index: 100;
     margin-right: 0;
     position: relative;
     background:#2c3e50;
